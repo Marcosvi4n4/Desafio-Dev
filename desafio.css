@@ -1,0 +1,197 @@
+body{
+background: #051d3b;
+}
+
+.alura{
+position: absolute;
+left: 32px;
+top: 44px;
+}
+
+.buscar{
+height: 56px;
+width: 752px;
+position: absolute;
+left: 344px;
+top: 32px;
+background: rgba(255, 255, 255, 0.16);
+border-radius: 8px;
+border: none;
+}
+.buscar::placeholder{color: #FFFFFF;}
+.buscar:hover{background: rgba(255, 255, 255, 0.24)}
+
+.perfil{   
+position: absolute;
+left: 1302px;
+top: 32px;
+}
+
+.menuh1{
+color: #ffff;
+font-family: Inter;
+font-size: 12px;
+line-height: 18px;
+position: absolute;
+left: 32px;
+top: 128px;
+}
+
+#rectangle{
+position: absolute;
+width: 752px;
+height: 366px;
+left: 344px;
+top: 128px;
+background:#6BD1FF;
+border-radius: 8px;
+}
+
+.icon{
+position: absolute;
+left: 32px;
+top: 178px;
+}
+
+.link_editor{
+position: absolute;
+left: 96px;
+top: 195px;
+color: #ffff;
+}
+
+.icon2{
+position: absolute;
+left: 32px;
+top: 266px;
+}
+
+.link_comunidade{
+position: absolute;
+left: 96px;
+top: 280px;
+color: #FFFFFF;
+}
+
+.codigo-wrapper{
+position: absolute;
+left: 376px;
+top: 160px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+width: 688px;
+height: 302px;
+/* Neutral/$dark-gray */
+background: #141414;
+/* $editor-shadow */
+box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.24);
+border-radius: 8px;
+border: none;
+}
+
+.bolinhas{
+position: absolute;
+left: 392px;
+top: 176px
+}
+
+.botaohighlight{  
+position: absolute;
+width: 752px;
+height: 56px;
+left: 344px;
+top: 526px;
+background: rgba(80, 129, 251, 0.08);
+border-radius: 8px;
+border: none;
+color: #ffff;
+}
+.botaohighlight:hover{background: rgba(80, 129, 251, 0.16);;}
+
+.seuprojetoh1{
+position: absolute;
+left: 1136px;
+top: 128px;
+font-size: 12px;
+line-height: 18px;
+letter-spacing: 0.4em;
+text-transform: uppercase;   
+color: #ffff;
+}
+   
+.nomeprojeto{
+position: absolute;
+left: 1136px;
+top: 162px;
+width: 272px;
+height: 56px;
+background: rgba(255, 255, 255, 0.16);
+border-radius: 8px;
+border: none;
+}
+.nomeprojeto::placeholder{color: #ffff;}
+.nomeprojeto:hover{background: rgba(255, 255, 255, 0.24)}
+
+.descrição{
+position: absolute;
+left: 1136px;
+top: 234px;
+width: 272px;
+height: 80px;
+background: rgba(255, 255, 255, 0.16);
+border-radius: 8px;
+border: none;
+color: #FFFFFF;
+}
+.descrição::placeholder{color: #ffff;}
+.descrição:hover{background: rgba(255, 255, 255, 0.24)}
+
+
+.personalizaçãoh1{
+position: absolute;
+left: 1136px;
+top: 354px;
+font-size: 12px;
+line-height: 18px;
+letter-spacing: 0.4em;
+text-transform: uppercase;
+color: #ffff;
+}
+
+.seletor{
+padding: 0px;
+width: 272px;
+height: 56px;
+position: absolute;
+left: 1136px;
+top: 388px;
+background: rgba(255, 255, 255, 0.16);
+border-radius: 8px;
+border: none;
+color: #ffff;
+}
+.seletor:hover{background: rgba(255, 255, 255, 0.24)}
+
+.selecaocor{
+position: absolute;
+left: 1136px;
+top: 468px;
+width: 256px;
+height: 40px;
+left: 1144px;
+border-radius: 8px;
+background: #051d3b;
+}
+
+.salvar{
+position: absolute;
+left: 1136px;
+top: 548px;
+height: 56px;
+width: 272px;
+border-radius: 8px;
+background: #5081FB;
+border: none;   
+}
+.salvar:hover{background: #7BA4FC;}
